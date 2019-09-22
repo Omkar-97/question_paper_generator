@@ -167,7 +167,7 @@ if __name__ == '__main__':
     if qp:
         final_qp = qp_gen(qp, easy, medium, hard)
         print("\nFinal question list")
-        with open("final_qp", 'w+') as fp:
+        with open("final_qp.txt", 'w+') as fp:
             fp.write("Question\tMarks\tDifficulty\n")
             for questions in final_qp:
                 print(questions)
