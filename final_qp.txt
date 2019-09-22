@@ -1,0 +1,6 @@
+Question	Marks	Difficulty
+Q1			5		easy
+Q6			1		easy
+Q3			6		medium
+Q18			6		medium
+Q13			12		hard
