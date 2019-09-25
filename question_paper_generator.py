@@ -40,11 +40,10 @@ def sum_marks(marks_list, marks):
     temp = []
     if len(marks_list) > 0:
         for rep in range(1, len(marks_list)+1):
-            for i in range(0, len(marks_list)+1):
-                temp += list(combinations(marks_list, rep))
-            for item in temp:
-                if sum(item) == marks:
-                    return item
+            temp += list(combinations(marks_list, rep))
+        for item in temp:
+            if sum(item) == marks:
+                return item
 
 
 def marks_distribution():
